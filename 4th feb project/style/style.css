@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 800px;
+    font-weight: 800;
+    padding: 10px 20px;
+
+    }
+    nav ul li:hover{
+        transform: scale(1.2);
+        background-color: rgb(17, 2, 2);
+        color: white;
+    }
+    .logo{
+        margin: 10px 30px;
+        align-items: center;
+    }
+    .button{
+        margin-right: 30px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(59, 59, 219);
+        color: white;
+        font-weight: 200;
+        border-radius: 10%;
+        width: fit-content;
+    }
+    .hero-section{
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-left-section h1{
+        font-weight: 800;
+        font-size: 50px;
+        margin-left: 30px;
+     margin-bottom: 16px;
+     font-weight: 800;
+     margin-top: 40px;
+        
+
+    }
+    .hero-left-section span{
+        color:rgb(59, 59, 219) ;
+    }
+    .hero-left-section p{
+        margin-top: 20px;
+        line-height: none;
+        margin-left: 30px;
+        color: black;
+        font-size: none;
+
+    }
+
+    .button1{
+        margin-top: 20px;
+        margin-right: 30px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(59, 59, 219);
+        color: white;
+        margin-left: 30px;
+        font-weight: 600;
+      }
+      .button1:hover{
+        transform: scale(1.2);
+      }
+      .button:hover{
+        transform: scale(1.2);
+      }
+      .hero-right-section{
+        float: right;
+        display: flex;
+        flex-direction: column;
+         /* width: 40%; */
+        align-items: center;
+         justify-content: center;
+         /* margin: 30px 30px 30px 200px; */
+         width: 1000px;
+         height: 600px;
+    
+      }
+
